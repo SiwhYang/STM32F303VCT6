@@ -33,3 +33,4 @@
 .\objects\main.o: .\Stm32F303_FW\STM32F30x_StdPeriph_Driver\inc\stm32f30x_usart.h
 .\objects\main.o: .\Stm32F303_FW\STM32F30x_StdPeriph_Driver\inc\stm32f30x_wwdg.h
 .\objects\main.o: .\Stm32F303_FW\STM32F30x_StdPeriph_Driver\inc\stm32f30x_misc.h
+.\objects\main.o: User\led.h

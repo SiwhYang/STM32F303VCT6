@@ -7,23 +7,22 @@ int main(void)
 {
 	
 	LED_init();
+	int x;
 	
-
 	while(1)
 		{
-				GPIO_SetBits(GPIOE,GPIO_Pin_8);
-				GPIO_SetBits(GPIOE,GPIO_Pin_9);
-				GPIO_SetBits(GPIOE,GPIO_Pin_10);
-				GPIO_SetBits(GPIOE,GPIO_Pin_11);
-				GPIO_SetBits(GPIOE,GPIO_Pin_12);
-				GPIO_SetBits(GPIOE,GPIO_Pin_13);
-				GPIO_SetBits(GPIOE,GPIO_Pin_14);
-				GPIO_SetBits(GPIOE,GPIO_Pin_15);
+			for (int i = 8 ; i<=23 ; i++)
+			{
+				LED_All_Loop(i);
+				delay_test_ms(1000000);
+				
+			
+			}
+				
+		//LED_All_TurnOn();
+		//delay_test_ms(1000000);		
+				
 		}
-
-		
-		
+					
 	return 0;
-
-
 }

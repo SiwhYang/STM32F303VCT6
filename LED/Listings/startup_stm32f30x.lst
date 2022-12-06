@@ -768,13 +768,13 @@ ARM Macro Assembler    Page 12
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\startup_stm32f30x.d -o.\objects\startup_stm32f30x.o -
-IC:\Users\User\Desktop\project\STM32F303VCT6\LED\RTE -IC:\Users\User\AppData\Lo
-cal\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2 -IC:\Keil_v5\ARM\CMSIS\Include -IC:\User
-s\User\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST
-\STM32F3xx\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" 
---predefine="__UVISION_VERSION SETA 514" --predefine="STM32F303xC SETA 1" --lis
-t=.\listings\startup_stm32f30x.lst Stm32F303_FW\CMSIS\Device\ST\STM32F30x\Sourc
-e\Templates\arm\startup_stm32f30x.s
+IC:\Users\11106400\Desktop\embedded\Stm32\STM32F303VCT6\LED\RTE -IC:\Keil_v5\AR
+M\PACK\Keil\STM32F3xx_DFP\2.2.2 -IC:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM
+\PACK\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include --pred
+efine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VE
+RSION SETA 514" --predefine="STM32F303xC SETA 1" --list=.\listings\startup_stm3
+2f30x.lst Stm32F303_FW\CMSIS\Device\ST\STM32F30x\Source\Templates\arm\startup_s
+tm32f30x.s
 
 
 

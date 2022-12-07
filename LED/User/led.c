@@ -49,6 +49,7 @@ void LED_All_TurnOn()
 	GPIO_SetBits(GPIOE,GPIO_Pin_13);
 	GPIO_SetBits(GPIOE,GPIO_Pin_14);
 	GPIO_SetBits(GPIOE,GPIO_Pin_15);
+	
 }
 
 

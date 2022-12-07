@@ -1,5 +1,6 @@
 #include "main.h"
 #include "led.h"
+#include "delay.h"
 
 
 
@@ -14,13 +15,8 @@ int main(void)
 			for (int i = 8 ; i<=23 ; i++)
 			{
 				LED_All_Loop(i);
-				delay_test_ms(1000000);
-				
-			
-			}
-				
-		//LED_All_TurnOn();
-		//delay_test_ms(1000000);		
+				delay_ms(1000);		
+			}	
 				
 		}
 					

@@ -558,6 +558,11 @@
               <FileType>1</FileType>
               <FilePath>.\User\delay.c</FilePath>
             </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\usart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

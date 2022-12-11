@@ -2,9 +2,10 @@
 #define _DELAY_H_
 #include "stm32f30x.h"
 
-void delay_init(void);
-void delay_ms(u16 ms);
-void delay_us(u16 ns);
+void Delay_init(void);
+void Delay_s(u16 s);
+void Delay_ms(u16 ms);
+void Delay_us(u16 us);
 
 
 

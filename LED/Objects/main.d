@@ -35,3 +35,4 @@
 .\objects\main.o: .\Stm32F303_FW\STM32F30x_StdPeriph_Driver\inc\stm32f30x_misc.h
 .\objects\main.o: User\led.h
 .\objects\main.o: User\delay.h
+.\objects\main.o: User\usart.h

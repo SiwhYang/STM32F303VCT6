@@ -35,11 +35,12 @@ int main(void)
 		
 		GPIO_ResetBits(GPIOE,GPIO_Pin_7);	
 		LED_All_TurnOn();
-		Delay_us(1);
+		Delay_us(10);
 		GPIO_SetBits(GPIOE,GPIO_Pin_7);	
 		LED_All_TurnOff();
-		Delay_us(1);
-
+		
+		Delay_us(10);
+		//USART_SendData(USART3,0X11);
 		//for(int i = 8 ; i <= 23 ; i++)
 		
 

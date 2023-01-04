@@ -2,8 +2,6 @@
 #include "stm32f30x.h"
 #include "stm32f30x_spi.h"
 
-#define Dummy_Byte 0xFF
-#define TIMEOUT_TIME 0x1000
 
 // for spi1 we use PA_5 PA_6 PA_7 as SCK, MISO, MOSI (GPIO_AF_5), and PE3 as CS 
 void Spi_Init()

@@ -2,6 +2,31 @@
 #include "stm32f30x.h"
 
 
+// CS -> PF10 
+// RS -> PF9
+// WR -> PF1
+// RD -> PF0
+// RSD -> PC15
+// D0 -> PC14
+// D1 -> PC13
+// D2 -> PE6
+// D3 -> PE4
+// D4 -> PE5
+
+// D5 ->
+// D6 ->
+// D7 ->
+// D8 ->
+// D9 ->
+// D10 ->
+// D11 ->
+// D12 ->
+// D13 ->
+// D14 ->
+// D15 ->
+
+
+
 void LCD_Init()
 {	
 	GPIO_InitTypeDef GPIO_InitStructure ;
